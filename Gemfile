@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll", ">= 4.1.0", "< 5.0"
+gem "jekyll", ">= 3.1.0", "<= 3.9.0"
 
 # plugins
 group :jekyll_plugins do
@@ -9,6 +9,7 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jekyll-archives"
   gem "jekyll-sitemap"
+  gem "github-pages"
 end
 
 group :test do
