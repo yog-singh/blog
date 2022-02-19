@@ -13,7 +13,7 @@ This post walks though the birds eye view of how database engines function and w
 ## Source of data/query
 The data generally originates in any backend application, here let's consider a Java application. Data received from user is generally mapped to a Java object and thereon the object is mapped to a database relation using the Object Relation Mapping (ORM).
 
-![Java Object to ORM Object](../assets/img/diagrams/post-1-java-to-orm-object.png)
+![Java Object to ORM Object](https://www.y0gesh.com/blog/assets/img/diagrams/post-1-java-to-orm-object.png)
 
 ORM does the major task of mapping objects to the relation/table and creating queries for operations requested by the application and handles all the interaction with database.
 
@@ -26,7 +26,7 @@ Postgres client library sends the queries in the dialect which Postgres understa
 
 Now when the SQL query reaches the postgres server, the clock starts ticking and the query needs to be executed as fast as possible and the result set returned to the client. The process of query execution is divided into multiple parts as described in the diagram below:
 
-![PSQL Steps](../assets/img/diagrams/post-1-query-tofile.png)
+![PSQL Steps](https://www.y0gesh.com/blog/assets/img/diagrams/post-1-query-tofile.png)
 
 ### Parser
 
