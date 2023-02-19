@@ -1,0 +1,6 @@
+baseURL = 'https://y0gesh.com/'
+languageCode = 'en-us'
+title = 'Scratchpad'
+theme = 'nostyleplease'
+
+params.theme_config.show_description = true

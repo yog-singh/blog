@@ -1,0 +1,21 @@
+[[entries]]
+title = "posts"
+
+  [entries.post_list]
+  limit = 5
+  section = "posts"
+  show_more = true
+  show_more_text = "See more posts..."
+  show_more_url = "posts"
+
+
+[[entries]]
+title = "info"
+
+  [[entries.entries]]
+  title = "github repo"
+  url = "https://github.com/yog-singh"
+
+  [[entries.entries]]
+  title = "rss"
+  url = "index.xml"
