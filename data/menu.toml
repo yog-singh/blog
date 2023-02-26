@@ -10,6 +10,17 @@ title = "posts"
 
 
 [[entries]]
+title = "notes"
+
+  [entries.post_list]
+  limit = 5
+  section = "notes"
+  show_more = true
+  show_more_text = "Read more notes..."
+  show_more_url = "notes"
+
+
+[[entries]]
 title = "info"
 
   [[entries.entries]]
